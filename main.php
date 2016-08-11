@@ -4,7 +4,7 @@
 	<script src="//vk.com/js/api/openapi.js" type="text/javascript"></script>
 	<script type="text/javascript">
   		VK.init({
-    	apiId: 5583889
+    	apiId: Your App ID
   		});
 	</script>
 	<title>VK</title>
