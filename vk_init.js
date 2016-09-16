@@ -1,3 +1,3 @@
 VK.init({
-	apiId: 5583889
+	apiId: YOUR APP ID
 });
