@@ -34,7 +34,7 @@
             $login=$_SESSION['login'];
 
             //Подключаемся к базе данных.
-            $dbcon = mysql_connect("localhost", "root", "hHrKip78"); 
+            $dbcon = mysql_connect("localhost", "user", "password"); 
             mysql_select_db("users", $dbcon);
             if (!$dbcon)
             {
