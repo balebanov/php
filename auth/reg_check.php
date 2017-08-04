@@ -17,7 +17,7 @@ if (empty($login) or empty($password)) //если пользователь не 
 	$login = trim($login);
 	$password = trim($password);
 
-	$db_con = mysql_connect("localhost", "root", "hHrKip78");
+	$db_con = mysql_connect("localhost", "user", "password");
 	mysql_select_db("users", $db_con) or die("Ошибка выбора БД ".mysql_errno());
 	if (!$db_con)
 	{
